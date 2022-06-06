@@ -53,3 +53,16 @@
 .headerIcon {
   color: lightgray;
 }
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+.headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+}

@@ -2,6 +2,8 @@ import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";
 import {
   faBed,
   faCar,
+  faHotel,
+  faPerson,
   faPlane,
   faTaxi,
 } from "@fortawesome/free-solid-svg-icons";
@@ -54,8 +56,11 @@ const Header = () => {
             <span className="headerSearchText">date to date</span>
           </div>
           <div className="headerSearchItem">
-            <FontAwesomeIcon icon={faBed} className="headerIcon" />
+            <FontAwesomeIcon icon={faPerson} className="headerIcon" />
             <span className="headerSearchText">2 adults 2 children 1 room</span>
+          </div>
+          <div className="headerSearchItem">
+            <button className="headerBtn">Search</button>
           </div>
         </div>
       </div>
